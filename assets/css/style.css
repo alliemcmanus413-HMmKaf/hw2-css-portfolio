@@ -1,0 +1,48 @@
+html {
+    background-color: rgb(231, 158, 228);
+}
+body {
+    margin: 0;
+    
+}
+header {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    margin: 0;
+    font-size: 40px;
+    text-align: left;
+    background-color: rgb(171, 86, 224);
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    text-align: right;
+    margin-left:auto;
+
+
+}
+/* add hover elements to nav */
+nav a {
+    margin-top: 10px;
+    /* flex-direction: row;
+    justify-content: right; */
+    margin-right: 0;
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 60%;
+    border-style: solid;
+    border-width:  1px black;
+    
+}
+.img-1{
+    height: 25%;
+    
+}
+main {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 30%;
+}

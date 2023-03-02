@@ -1,5 +1,6 @@
 html {
     background-color: rgb(231, 158, 228);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 body {
     margin: 0;
@@ -37,12 +38,25 @@ nav a {
     border-width:  1px black;
     
 }
-.img-1{
-    height: 25%;
+
+.butterflies {
+    height: 15%;
+    display: flex;
+    transform: scale(1.4, 1);
     
 }
 main {
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-end;
     margin-left: 30%;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+}
+
+aside a {
+    font-size: 30px;
 }

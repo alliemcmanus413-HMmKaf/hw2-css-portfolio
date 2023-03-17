@@ -5,11 +5,12 @@
 }
 
 body {
-    display:inline;
+    display:flex;
+    flex-wrap: wrap;
 }
 
-aside {
+/* aside {
     display: flex;
     flex-direction: column;
     max-width: 20%;
-}
+} */

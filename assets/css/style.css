@@ -23,7 +23,7 @@ nav {
   text-align: right;
   margin-left: auto;
 }
-/* add hover elements to nav */
+
 nav a {
   margin-top: 10px;
   flex-direction: row;
@@ -34,6 +34,10 @@ nav a {
   font-size: 60%;
   border-style: solid;
   border-width: 1px black;
+}
+
+a:hover{
+  background-color: rgb(206, 121, 206);
 }
 
 .butterflies {
@@ -47,7 +51,6 @@ nav a {
 main {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
 
 }
 
@@ -86,11 +89,12 @@ section h2{
   
   
 }
-#main-project-img{
-  max-width: 250px;
-  max-height: 250px;
+/* #main-project-img{
+  min-width: 250px;
+  min-height: 250px;
+  
 
-}
+} */
 
 .project img{
   object-fit: cover;
@@ -108,3 +112,28 @@ section h2{
 .clickable-imgs {
 }
 
+@media screen and (max-width: 992px) {
+  main{
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+  }
+}
+
+@media screen and (max-width: 768px) {
+  main{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  section{
+    flex-direction: column;
+  }
+  
+}
+
+@media screen and (max-width: 576px) {
+    flex-wrap: wrap;
+    flex-direction: column;
+  
+}

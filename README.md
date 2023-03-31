@@ -11,4 +11,8 @@ Once I create a professional resume, I will link that in the "resume" section fo
 
 ![webpage mockup, includes header and nav bar, banner image, and 4 sections: about me, work, contact me, and a link to my resume](assets/images/markup.jpg)
 
+Deployed Site:
+https://alliemcmanus413-hmmkaf.github.io/hw2-css-portfolio/
 
+Repo:
+https://github.com/alliemcmanus413-HMmKaf/hw2-css-portfolio

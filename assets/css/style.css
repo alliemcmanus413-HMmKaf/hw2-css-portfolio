@@ -89,12 +89,10 @@ section h2{
   
   
 }
-/* #main-project-img{
-  min-width: 250px;
-  min-height: 250px;
-  
-
-} */
+/* tried to make first image larger than others, could not figure it out */
+#main-project-img{
+  justify-self: center;
+}
 
 .project img{
   object-fit: cover;
@@ -108,7 +106,7 @@ section h2{
   font-weight: bold;
   
 }
-
+/* tried to make images clickable, tried anchor tags */
 .clickable-imgs {
 }
 
